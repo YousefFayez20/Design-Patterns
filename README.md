@@ -50,5 +50,3 @@ This repository contains implementations of various **Design Patterns** in softw
 
 - **Java**: All design pattern implementations are written in Java.
 
----
-

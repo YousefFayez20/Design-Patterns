@@ -1,53 +1,54 @@
 # 🎨 Design Patterns Implementation
 
 ## 📌 Overview
-This repository showcases implementations of various **Design Patterns** in software development. Each pattern is demonstrated through practical examples, primarily using **Java**.
+This repository contains implementations of various **Design Patterns** in software development. Each pattern is demonstrated through practical examples using **Java**.  
+**These implementations were developed as part of the Design Patterns course at Ain Shams University during Fall 2024.**
 
 ---
 
 ## 🚀 Implemented Design Patterns
 
 - **Adapter Pattern**
-  - **Description**: Allows incompatible interfaces to work together by acting as a bridge between them.&#8203;:contentReference[oaicite:0]{index=0}
-  - **Implementation**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
+  - **Directory**: `Adapter_pattern`
+  - **Description**: Demonstrates how to allow incompatible interfaces to work together by acting as a bridge between them.
 
 - **Composite Pattern**
-  - **Description**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
-  - **Implementation**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+  - **Directory**: `CompositeDP`
+  - **Description**: Illustrates composing objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
 
 - **Decorator Pattern**
-  - **Description**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
-  - **Implementation**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+  - **Directory**: `DecoratorDP` and `DecoratorDP2`
+  - **Description**: Shows how to dynamically add behavior or responsibilities to objects without modifying their code.
 
 - **Iterator Pattern**
-  - **Description**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
-  - **Implementation**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+  - **Directory**: `IteratorPattern`
+  - **Description**: Provides a way to access elements of a collection sequentially without exposing its underlying representation.
 
 - **Observer Pattern**
-  - **Description**: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
-  - **Implementation**: :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
+  - **Directory**: `ObserverDP` and `ObserverDP2`
+  - **Description**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 - **Strategy Pattern**
-  - **Description**: :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
-  - **Implementation**: :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
+  - **Directory**: `Strategy DP1` and `StrategyDP2`
+  - **Description**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the algorithm to vary independently from clients that use it.
 
 - **Template Method Pattern**
-  - **Description**: :contentReference[oaicite:23]{index=23}&#8203;:contentReference[oaicite:24]{index=24}
-  - **Implementation**: :contentReference[oaicite:25]{index=25}&#8203;:contentReference[oaicite:26]{index=26}
+  - **Directory**: `Template_Pattern`
+  - **Description**: Defines the skeleton of an algorithm in a method, deferring some steps to subclasses, allowing them to redefine certain steps without changing the algorithm's structure.
 
 - **Command Pattern**
-  - **Description**: :contentReference[oaicite:27]{index=27}&#8203;:contentReference[oaicite:28]{index=28}
-  - **Implementation**: :contentReference[oaicite:29]{index=29}&#8203;:contentReference[oaicite:30]{index=30}
+  - **Directory**: `commandpractice`
+  - **Description**: Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
 
 - **State Pattern**
-  - **Description**: :contentReference[oaicite:31]{index=31}&#8203;:contentReference[oaicite:32]{index=32}
-  - **Implementation**: :contentReference[oaicite:33]{index=33}&#8203;:contentReference[oaicite:34]{index=34}
+  - **Directory**: `state_pattern`
+  - **Description**: Allows an object to alter its behavior when its internal state changes, appearing to change its class.
 
 ---
 
 ## 🛠 Technologies Used
 
-- **Java**: :contentReference[oaicite:35]{index=35}&#8203;:contentReference[oaicite:36]{index=36}
+- **Java**: All design pattern implementations are written in Java.
 
 ---
 

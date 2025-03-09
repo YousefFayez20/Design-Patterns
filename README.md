@@ -52,5 +52,3 @@ This repository contains implementations of various **Design Patterns** in softw
 
 ---
 
-## 📂 Repository Structure
-
